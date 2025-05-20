@@ -3,4 +3,6 @@ project(CampoMinato)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(CampoMinato main.cpp)
+add_executable(CampoMinato ./src/main.cpp
+        src/engine/terminal-utils.cpp
+        src/engine/terminal-utils.h)
